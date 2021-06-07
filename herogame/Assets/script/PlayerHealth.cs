@@ -54,6 +54,7 @@ public class PlayerHealth : MonoBehaviour
                             s.sortingLayerName = "UI";
                         GetComponent<Playercontrol>().enabled = false;
                         GetComponentInChildren<Gun>().enabled = false;
+                        
                     }
 
                 }

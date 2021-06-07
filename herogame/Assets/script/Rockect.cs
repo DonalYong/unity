@@ -22,7 +22,8 @@ public class Rockect : MonoBehaviour
             Instantiate(explosion, transform.position, Quaternion.Euler(new Vector3(0, 0, rotationZ)));
             Destroy(gameObject);
         }
-        
+        if (collision.tag == "Enemy")
+            collision.gameObject.GetComponent<Enemy>().Hurt();
 
     }
 
