@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7752811469438677120}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: frontCheck
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 895850600466776461}
   - component: {fileID: 7118309031646091849}
   - component: {fileID: 4026368892904421131}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7752811470698650834}
   - component: {fileID: 7752811470698650835}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: body
   m_TagString: Enemy
   m_Icon: {fileID: 0}

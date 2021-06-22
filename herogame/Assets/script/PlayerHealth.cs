@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    float health = 100f;
+    public float health = 100f;
     public float  hurtBloodpPiont=20f;
     public float damageRepeat = 0.5f;
     public float hurtForce =100f;
@@ -72,7 +72,7 @@ public class PlayerHealth : MonoBehaviour
         int i = Random.Range(0, ouchClips.Length);
         AudioSource.PlayClipAtPoint(ouchClips[i], transform.position);
     }
-    void UpdateHealthBar()
+     public void UpdateHealthBar()
     {
         healthBar.material.color = Color.Lerp(Color.green, Color.red, 1 - health * 0.01f);
         healthBar.transform.localScale = new Vector3(health * 0.01f, 1, 1);

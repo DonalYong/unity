@@ -9,6 +9,8 @@ TagManager:
   - Enemy
   - HealthBar
   - wall
+  - BombPickup
+  - ExplosionFX
   layers:
   - Default
   - TransparentFX
@@ -19,8 +21,8 @@ TagManager:
   - 
   - 
   - Ground
-  - 
-  - 
+  - Enemy
+  - Pickup
   - 
   - 
   - 
@@ -48,6 +50,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 2431177697
+    locked: 0
+  - name: Character
+    uniqueID: 1798818627
     locked: 0
   - name: forgrounds
     uniqueID: 2459467611

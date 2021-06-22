@@ -18,8 +18,10 @@ public class Spawner : MonoBehaviour
     void SpawnEnemy()
     {
         int index = Random.Range(0, Enemies.Length);
-        Instantiate(Enemies[index], transform.position, transform.localRotation);
-        
+        var enemy = Instantiate(Enemies[index], transform.position, transform.localRotation);
+        enemy.transform.localScale = new Vector3(-1, 1, 1);
+
+
     }
 
     // Update is called once per frame
